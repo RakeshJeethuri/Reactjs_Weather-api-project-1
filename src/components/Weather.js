@@ -11,7 +11,7 @@ import wind_icon from '../assests/wind.png'
 
 export default function Weather() {
     const inputref = useRef()
-    const key = '57f116700f023d2da01dffc86f55021f'
+    const key = '57f006711f123d2da10dffc86f55120f'
     const [weatherdata,setweatherdata]=useState(false);
     const allicons={
         "01d":clear_icon,
